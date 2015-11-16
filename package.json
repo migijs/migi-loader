@@ -28,8 +28,7 @@
   "author": "army8735",
   "license": "MIT",
   "dependencies": {
-    "lefty": "~0.6.0",
-    "jaw": "~0.5.0"
+    "lefty": "~0.6.0"
   },
   "main": "./index",
   "engines": {
