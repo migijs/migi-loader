@@ -7,8 +7,7 @@ module.exports = function(source) {
     this.cacheable();
   }
   var config = url.parse(this.query, true).query;
-  var lie = config.lie == 'true';
   var es5 = config.es5 == 'true';
 
-  return lefty.parse(source, lie, es5);
+  return lefty.parse(source, es5);
 };
