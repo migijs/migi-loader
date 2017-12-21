@@ -7,7 +7,14 @@ module.exports = function(source) {
     this.cacheable();
   }
   var config = url.parse(this.query, true).query;
-  var es5 = config.es5 == 'true';
 
-  return lefty.parse(source, es5);
+  var res = lefty.parse(source);
+  if(config.prefix) {
+    res = config.prefix + res;
+  }
+  if(config.suffix) {
+    res += config.suffix;
+  }
+
+  return res;
 };
