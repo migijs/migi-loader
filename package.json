@@ -1,6 +1,6 @@
 {
   "name": "migi-loader",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "",
   "maintainers": [
     {
@@ -28,7 +28,7 @@
   "author": "army8735",
   "license": "MIT",
   "dependencies": {
-    "lefty": "~5.0.0"
+    "lefty": "~6.0.0"
   },
   "main": "./index",
   "engines": {
